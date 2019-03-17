@@ -18,17 +18,19 @@ HOSTNAME:PATH USER$
 
 The `$` sign is a **prompt**, indicating you that the shell is waiting for commands. Your shell may use different text for the prompt. Most importantly: when typing commands, do not type the prompt, only the commands that follow it.
 
-**In this repo, we will introduce some commands on -** 
+### In this repo, we will introduce some commands on - 
 
-* [Directory Structure and Filesystem](./1_Filesystem): How can I move around on my computer and list files and directories? How can I create, copy, and delete files and directories? 
+* [Directory Structure and Filesystem](./1_Filesystem.md): How can I move around on my computer and list files and directories? How can I create, copy, and delete files and directories? 
 
-* [Text Wrangling](./2_Text): How can I edit files? How can I count the number of lines and sort contents of the files?
+* [Text Wrangling](./2_Text.md): How can I edit files? How can I count the number of lines and sort contents of the files?
 
-* [Job Controls](./3_Job): How can I start a command in background and detach process in terminal?
+* [Job Controls](./3_Job.md): How can I start a command in background and detach process in terminal?
 
-* [Working on EECS Servers](./4_Server): How can I run commands on EECS servers?
+* [Working on EECS Servers](./4_Server.md): How can I run commands on EECS servers?
 
-Before starting this trip a couple of tools that are going to be handy.
+---
+
+There are a couple of tools that are going to be handy:s
 
 **1. TAB key**
 
@@ -56,7 +58,7 @@ HOSTNAME:PATH USER$ [UP_KEY]
 HOSTNAME:PATH USER$ history
 ```
 
-**3.Read the manual **
+**3.Read the manual**
 
 Unix has an embedded manual. Just type `man` followed by the name of the command and you will get the manual for it. Use key for navigating throughout it and after that press `q` to quit.
 
@@ -64,7 +66,7 @@ Generally, commands take the form:  `<command> <options> <parameters>`
 
 `<options>` usually being of the form `-x` or `--extract`, `<parameters>` being based on their position.
 
-**4.Keyboard shortcuts **
+**4.Keyboard shortcuts**
 
 a. Control Process
 
