@@ -30,7 +30,7 @@ The `$` sign is a **prompt**, indicating you that the shell is waiting for comma
 
 ---
 
-There are a couple of tools that are going to be handy:s
+There are a couple of tools that are going to be handy:
 
 **1. TAB key**
 
